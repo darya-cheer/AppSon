@@ -1,6 +1,12 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+}
 .header {
   background-image: url(../img/header_background.png);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
   width: 100%;
 }
 .header_wrapper {
@@ -15,6 +21,8 @@
   padding-right: 140px;
   font-size: 16px;
   padding-top: 0;
+  line-height: 27px;
+  font-weight: 500;
 }
 .nav {
   list-style-type: none;
@@ -43,4 +51,58 @@
 }
 .nav_btn:hover {
   background-color: rgba(0, 63, 222, 0.884);
+}
+.elements {
+  margin: 0 auto;
+  padding-top: 106px;
+  max-width: 615px;
+  text-align: center;
+  padding-bottom: 216px;
+}
+.elements h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.elements p {
+  color: #929292;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+.elements .btn-1,
+.btn-2 {
+  margin: 0;
+  padding: 17px 45px;
+  max-width: 165px;
+  text-align: center;
+  border: 2px solid #0f7bff;
+  border-radius: 21px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration: none;
+}
+.elements .btn-1 {
+  margin-right: 15px;
+  background-color: #0f7bff;
+  color: #fff;
+}
+.elements .btn-2 {
+  margin-left: 15px;
+  color: #0f7bff;
+  background-color: #f5fcfd;
+}
+.devices {
+  display: block;
+  margin: 0 auto;
+  margin-top: -35%;
 }
