@@ -106,3 +106,42 @@ body {
   margin: 0 auto;
   margin-top: -35%;
 }
+.features {
+  background-color: #f5fcfd;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.features h2 {
+  margin: 0;
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.features p {
+  color: #929292;
+  font-size: 16px;
+  line-height: 27px;
+}
+.features .box-item {
+  max-width: 360px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 165px;
+  margin-bottom: 180px;
+  margin-right: 29px;
+}
+.features .item-2 {
+  margin-top: 215px;
+  margin-bottom: 130px;
+}
+.features.box-item:last-child {
+  margin-right: 0;
+}
+.scroll_down {
+  display: block;
+  margin: 0 auto;
+}
