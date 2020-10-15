@@ -54,7 +54,7 @@ body {
 }
 .elements {
   margin: 0 auto;
-  padding-top: 106px;
+  padding-top: 84px;
   max-width: 615px;
   text-align: center;
   padding-bottom: 216px;
@@ -64,13 +64,13 @@ body {
   font-size: 36px;
   line-height: 24px;
   color: #333333;
-  margin-bottom: 40px;
+  margin-bottom: 34px;
 }
 .elements p {
   color: #929292;
   font-size: 16px;
   line-height: 27px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .button {
   display: flex;
@@ -81,7 +81,7 @@ body {
 .elements .btn-1,
 .btn-2 {
   margin: 0;
-  padding: 17px 45px;
+  padding: 7px 45px 7px 45px;
   max-width: 165px;
   text-align: center;
   border: 2px solid #0f7bff;
@@ -104,16 +104,17 @@ body {
 .devices {
   display: block;
   margin: 0 auto;
-  margin-top: -35%;
+  margin-top: -34%;
 }
 .features {
   background-color: #f5fcfd;
   margin: 0;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .features h2 {
-  margin: 0;
+  margin-top: 19px;
   color: #333333;
   font-weight: 500;
   font-size: 18px;
@@ -129,19 +130,20 @@ body {
   background-color: #fff;
   text-align: center;
   padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 165px;
+  padding-bottom: 18px;
+  margin-top: 166px;
   margin-bottom: 180px;
   margin-right: 29px;
 }
 .features .item-2 {
-  margin-top: 215px;
+  margin-top: 217px;
   margin-bottom: 130px;
 }
-.features.box-item:last-child {
+.box-item:last-child {
   margin-right: 0;
 }
-.scroll_down {
-  display: block;
-  margin: 0 auto;
+.scroll {
+  position: absolute;
+  top: -30px;
+  margin: auto;
 }
